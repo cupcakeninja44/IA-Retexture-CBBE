@@ -4344,4 +4344,972 @@
         <Shape target="FemaleBodyHeavy">FemaleBodyHeavy</Shape>
         <Shape target="SteelArmor">SteelArmor</Shape>
     </SliderSet>
+    <SliderSet name="IAR Dwarven Mage">
+        <DataFolder>IAR</DataFolder>
+        <SourceFile>IAR.nif</SourceFile>
+        <OutputPath>meshes\armor\battlemage</OutputPath>
+        <OutputFile GenWeights="true">dwarvenarmorf</OutputFile>
+        <Shape target="DwarvenArmorF">DwarvenArmorF</Shape>
+        <Shape target="robes">robes</Shape>
+        <Shape target="robeskin" DataFolder="CBBE">robeskin</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="robesAnkleSize" target="robes" local="true">IAR.osd\robesAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="robesAppleCheeks" target="robes" local="true">IAR.osd\robesAppleCheeks</Data>
+            <Data name="DwarvenArmorFAppleCheeks" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="robesArms" target="robes" local="true">IAR.osd\robesArms</Data>
+            <Data name="DwarvenArmorFArms" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="robesBack" target="robes" local="true">IAR.osd\robesBack</Data>
+            <Data name="DwarvenArmorFBack" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBack</Data>
+            <Data name="robeskinBack" target="robeskin" local="true">IAR.osd\robeskinBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="robesBackArch" target="robes" local="true">IAR.osd\robesBackArch</Data>
+            <Data name="DwarvenArmorFBackArch" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="robesBelly" target="robes" local="true">IAR.osd\robesBelly</Data>
+            <Data name="DwarvenArmorFBelly" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="robesBigBelly" target="robes" local="true">IAR.osd\robesBigBelly</Data>
+            <Data name="DwarvenArmorFBigBelly" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="robesBigButt" target="robes" local="true">IAR.osd\robesBigButt</Data>
+            <Data name="DwarvenArmorFBigButt" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="robesBigTorso" target="robes" local="true">IAR.osd\robesBigTorso</Data>
+            <Data name="DwarvenArmorFBigTorso" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBigTorso</Data>
+            <Data name="robeskinBigTorso" target="robeskin" local="true">IAR.osd\robeskinBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="robesBreastCenter" target="robes" local="true">IAR.osd\robesBreastCenter</Data>
+            <Data name="DwarvenArmorFBreastCenter" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="robesBreastCenterBig" target="robes" local="true">IAR.osd\robesBreastCenterBig</Data>
+            <Data name="DwarvenArmorFBreastCenterBig" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="robesBreastCleavage" target="robes" local="true">IAR.osd\robesBreastCleavage</Data>
+            <Data name="DwarvenArmorFBreastCleavage" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="robesBreastFlatness2" target="robes" local="true">IAR.osd\robesBreastFlatness2</Data>
+            <Data name="DwarvenArmorFBreastFlatness2" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="robesBreastFlatness" target="robes" local="true">IAR.osd\robesBreastFlatness</Data>
+            <Data name="DwarvenArmorFBreastFlatness" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="robesBreastGravity2" target="robes" local="true">IAR.osd\robesBreastGravity2</Data>
+            <Data name="DwarvenArmorFBreastGravity2" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="robesBreastHeight" target="robes" local="true">IAR.osd\robesBreastHeight</Data>
+            <Data name="DwarvenArmorFBreastHeight" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastHeight</Data>
+            <Data name="robeskinBreastHeight" target="robeskin" local="true">IAR.osd\robeskinBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="robesBreastPerkiness" target="robes" local="true">IAR.osd\robesBreastPerkiness</Data>
+            <Data name="DwarvenArmorFBreastPerkiness" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="robesBreasts" target="robes" local="true">IAR.osd\robesBreasts</Data>
+            <Data name="DwarvenArmorFBreasts" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="robesBreastsFantasy" target="robes" local="true">IAR.osd\robesBreastsFantasy</Data>
+            <Data name="DwarvenArmorFBreastsFantasy" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastsFantasy</Data>
+            <Data name="robeskinBreastsFantasy" target="robeskin" local="true">IAR.osd\robeskinBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="robesBreastsGone" target="robes" local="true">IAR.osd\robesBreastsGone</Data>
+            <Data name="DwarvenArmorFBreastsGone" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastsGone</Data>
+            <Data name="robeskinBreastsGone" target="robeskin" local="true">IAR.osd\robeskinBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="robesBreastsNewSH" target="robes" local="true">IAR.osd\robesBreastsNewSH</Data>
+            <Data name="DwarvenArmorFBreastsNewSH" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastsNewSH</Data>
+            <Data name="robeskinBreastsNewSH" target="robeskin" local="true">IAR.osd\robeskinBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="robesBreastsNewSHSymmetry" target="robes" local="true">IAR.osd\robesBreastsNewSHSymmetry</Data>
+            <Data name="DwarvenArmorFBreastsNewSHSymmetry" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="robesBreastsSmall" target="robes" local="true">IAR.osd\robesBreastsSmall</Data>
+            <Data name="DwarvenArmorFBreastsSmall" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastsSmall</Data>
+            <Data name="robeskinBreastsSmall" target="robeskin" local="true">IAR.osd\robeskinBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="robesBreastsSmall2" target="robes" local="true">IAR.osd\robesBreastsSmall2</Data>
+            <Data name="DwarvenArmorFBreastsSmall2" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastsSmall2</Data>
+            <Data name="robeskinBreastsSmall2" target="robeskin" local="true">IAR.osd\robeskinBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="robesBreastsTogether" target="robes" local="true">IAR.osd\robesBreastsTogether</Data>
+            <Data name="DwarvenArmorFBreastsTogether" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastsTogether</Data>
+            <Data name="robeskinBreastsTogether" target="robeskin" local="true">IAR.osd\robeskinBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="robesBreastTopSlope" target="robes" local="true">IAR.osd\robesBreastTopSlope</Data>
+            <Data name="DwarvenArmorFBreastTopSlope" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="robesBreastWidth" target="robes" local="true">IAR.osd\robesBreastWidth</Data>
+            <Data name="DwarvenArmorFBreastWidth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastWidth</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="robesBreastSideShape" target="robes" local="true">IAR.osd\robesBreastSideShape</Data>
+            <Data name="DwarvenArmorFBreastSideShape" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="robesBreastUnderDepth" target="robes" local="true">IAR.osd\robesBreastUnderDepth</Data>
+            <Data name="DwarvenArmorFBreastUnderDepth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="robesButt" target="robes" local="true">IAR.osd\robesButt</Data>
+            <Data name="DwarvenArmorFButt" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="robesButtClassic" target="robes" local="true">IAR.osd\robesButtClassic</Data>
+            <Data name="DwarvenArmorFButtClassic" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="robesButtCrack" target="robes" local="true">IAR.osd\robesButtCrack</Data>
+            <Data name="DwarvenArmorFButtCrack" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="robesButtShape2" target="robes" local="true">IAR.osd\robesButtShape2</Data>
+            <Data name="DwarvenArmorFButtShape2" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="robesButtSmall" target="robes" local="true">IAR.osd\robesButtSmall</Data>
+            <Data name="DwarvenArmorFButtSmall" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFButtSmall</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="robesButtDimples" target="robes" local="true">IAR.osd\robesButtDimples</Data>
+            <Data name="DwarvenArmorFButtDimples" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFButtDimples</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="robesButtUnderFold" target="robes" local="true">IAR.osd\robesButtUnderFold</Data>
+            <Data name="DwarvenArmorFButtUnderFold" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFButtUnderFold</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="robesCalfSize" target="robes" local="true">IAR.osd\robesCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="robesCalfSmooth" target="robes" local="true">IAR.osd\robesCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="robesChestDepth" target="robes" local="true">IAR.osd\robesChestDepth</Data>
+            <Data name="DwarvenArmorFChestDepth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFChestDepth</Data>
+            <Data name="robeskinChestDepth" target="robeskin" local="true">IAR.osd\robeskinChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="robesChestWidth" target="robes" local="true">IAR.osd\robesChestWidth</Data>
+            <Data name="DwarvenArmorFChestWidth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="robesChubbyArms" target="robes" local="true">IAR.osd\robesChubbyArms</Data>
+            <Data name="DwarvenArmorFChubbyArms" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="robesChubbyButt" target="robes" local="true">IAR.osd\robesChubbyButt</Data>
+            <Data name="DwarvenArmorFChubbyButt" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="robesChubbyLegs" target="robes" local="true">IAR.osd\robesChubbyLegs</Data>
+            <Data name="DwarvenArmorFChubbyLegs" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="robesChubbyWaist" target="robes" local="true">IAR.osd\robesChubbyWaist</Data>
+            <Data name="DwarvenArmorFChubbyWaist" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="robesCrotchBack" target="robes" local="true">IAR.osd\robesCrotchBack</Data>
+            <Data name="DwarvenArmorFCrotchBack" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="robesDoubleMelon" target="robes" local="true">IAR.osd\robesDoubleMelon</Data>
+            <Data name="DwarvenArmorFDoubleMelon" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="robesForearmSize" target="robes" local="true">IAR.osd\robesForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="robesGroin" target="robes" local="true">IAR.osd\robesGroin</Data>
+            <Data name="DwarvenArmorFGroin" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="robesHipBone" target="robes" local="true">IAR.osd\robesHipBone</Data>
+            <Data name="DwarvenArmorFHipBone" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="robesHipForward" target="robes" local="true">IAR.osd\robesHipForward</Data>
+            <Data name="DwarvenArmorFHipForward" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="robesHips" target="robes" local="true">IAR.osd\robesHips</Data>
+            <Data name="DwarvenArmorFHips" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="robesHipUpperWidth" target="robes" local="true">IAR.osd\robesHipUpperWidth</Data>
+            <Data name="DwarvenArmorFHipUpperWidth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFHipUpperWidth</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="robesHipCarved" target="robes" local="true">IAR.osd\robesHipCarved</Data>
+            <Data name="DwarvenArmorFHipCarved" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFHipCarved</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="robesKneeHeight" target="robes" local="true">IAR.osd\robesKneeHeight</Data>
+            <Data name="DwarvenArmorFKneeHeight" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="robesKneeShape" target="robes" local="true">IAR.osd\robesKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="robesLegShapeClassic" target="robes" local="true">IAR.osd\robesLegShapeClassic</Data>
+            <Data name="DwarvenArmorFLegShapeClassic" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="robesLegsThin" target="robes" local="true">IAR.osd\robesLegsThin</Data>
+            <Data name="DwarvenArmorFLegsThin" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="robesMuscleAbs" target="robes" local="true">IAR.osd\robesMuscleAbs</Data>
+            <Data name="DwarvenArmorFMuscleAbs" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="robesMuscleArms" target="robes" local="true">IAR.osd\robesMuscleArms</Data>
+            <Data name="DwarvenArmorFMuscleArms" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFMuscleArms</Data>
+            <Data name="robeskinMuscleArms" target="robeskin" local="true">IAR.osd\robeskinMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="robesMuscleButt" target="robes" local="true">IAR.osd\robesMuscleButt</Data>
+            <Data name="DwarvenArmorFMuscleButt" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="robesMuscleLegs" target="robes" local="true">IAR.osd\robesMuscleLegs</Data>
+            <Data name="DwarvenArmorFMuscleLegs" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="robesMusclePecs" target="robes" local="true">IAR.osd\robesMusclePecs</Data>
+            <Data name="DwarvenArmorFMusclePecs" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFMusclePecs</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="robesNavelEven" target="robes" local="true">IAR.osd\robesNavelEven</Data>
+            <Data name="DwarvenArmorFNavelEven" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNavelEven</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="robesNeckSeam" target="robes" local="true">IAR.osd\robesNeckSeam</Data>
+            <Data name="DwarvenArmorFNeckSeam" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNeckSeam</Data>
+            <Data name="robeskinNeckSeam" target="robeskin" local="true">IAR.osd\robeskinNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="robesNipBGone" target="robes" local="true">IAR.osd\robesNipBGone</Data>
+            <Data name="DwarvenArmorFNipBGone" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="robesNippleDistance" target="robes" local="true">IAR.osd\robesNippleDistance</Data>
+            <Data name="DwarvenArmorFNippleDistance" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="robesNippleDown" target="robes" local="true">IAR.osd\robesNippleDown</Data>
+            <Data name="DwarvenArmorFNippleDown" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="DwarvenArmorFNippleLength" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="DwarvenArmorFNippleManga" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="robesNipplePerkiness" target="robes" local="true">IAR.osd\robesNipplePerkiness</Data>
+            <Data name="DwarvenArmorFNipplePerkiness" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="robesNipplePerkManga" target="robes" local="true">IAR.osd\robesNipplePerkManga</Data>
+            <Data name="DwarvenArmorFNipplePerkManga" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="robesNippleSize" target="robes" local="true">IAR.osd\robesNippleSize</Data>
+            <Data name="DwarvenArmorFNippleSize" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="robesNippleTip" target="robes" local="true">IAR.osd\robesNippleTip</Data>
+            <Data name="DwarvenArmorFNippleTip" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="DwarvenArmorFNippleTipManga" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="robesNippleUp" target="robes" local="true">IAR.osd\robesNippleUp</Data>
+            <Data name="DwarvenArmorFNippleUp" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDip" invert="false" small="0" big="0">
+            <Data name="DwarvenArmorFNippleDip" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFNippleDip</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="robesPregnancyBelly" target="robes" local="true">IAR.osd\robesPregnancyBelly</Data>
+            <Data name="DwarvenArmorFPregnancyBelly" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="robesPushUp" target="robes" local="true">IAR.osd\robesPushUp</Data>
+            <Data name="DwarvenArmorFPushUp" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="robesRibsProminance" target="robes" local="true">IAR.osd\robesRibsProminance</Data>
+            <Data name="DwarvenArmorFRibsProminance" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="robesRoundAss" target="robes" local="true">IAR.osd\robesRoundAss</Data>
+            <Data name="DwarvenArmorFRoundAss" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="robesShoulderSmooth" target="robes" local="true">IAR.osd\robesShoulderSmooth</Data>
+            <Data name="DwarvenArmorFShoulderSmooth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFShoulderSmooth</Data>
+            <Data name="robeskinShoulderSmooth" target="robeskin" local="true">IAR.osd\robeskinShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="robesShoulderTweak" target="robes" local="true">IAR.osd\robesShoulderTweak</Data>
+            <Data name="DwarvenArmorFShoulderTweak" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="robesShoulderWidth" target="robes" local="true">IAR.osd\robesShoulderWidth</Data>
+            <Data name="DwarvenArmorFShoulderWidth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="robesSlimThighs" target="robes" local="true">IAR.osd\robesSlimThighs</Data>
+            <Data name="DwarvenArmorFSlimThighs" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="robesSternumDepth" target="robes" local="true">IAR.osd\robesSternumDepth</Data>
+            <Data name="DwarvenArmorFSternumDepth" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFSternumDepth</Data>
+            <Data name="robeskinSternumDepth" target="robeskin" local="true">IAR.osd\robeskinSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="robesSternumHeight" target="robes" local="true">IAR.osd\robesSternumHeight</Data>
+            <Data name="DwarvenArmorFSternumHeight" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFSternumHeight</Data>
+            <Data name="robeskinSternumHeight" target="robeskin" local="true">IAR.osd\robeskinSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="robesThighs" target="robes" local="true">IAR.osd\robesThighs</Data>
+            <Data name="DwarvenArmorFThighs" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="robesTummyTuck" target="robes" local="true">IAR.osd\robesTummyTuck</Data>
+            <Data name="DwarvenArmorFTummyTuck" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="robesWaist" target="robes" local="true">IAR.osd\robesWaist</Data>
+            <Data name="DwarvenArmorFWaist" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="robesWaistHeight" target="robes" local="true">IAR.osd\robesWaistHeight</Data>
+            <Data name="DwarvenArmorFWaistHeight" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="robesWideWaistLine" target="robes" local="true">IAR.osd\robesWideWaistLine</Data>
+            <Data name="DwarvenArmorFWideWaistLine" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="robesWristSize" target="robes" local="true">IAR.osd\robesWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="robes7B Lower" target="robes" local="true">IAR.osd\robes7B Lower</Data>
+            <Data name="DwarvenArmorF7B Lower" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorF7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="robes7B Upper" target="robes" local="true">IAR.osd\robes7B Upper</Data>
+            <Data name="DwarvenArmorF7B Upper" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorF7B Upper</Data>
+            <Data name="robeskin7B Upper" target="robeskin" local="true">IAR.osd\robeskin7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="robesVanillaSSEHi" target="robes" local="true">IAR.osd\robesVanillaSSEHi</Data>
+            <Data name="DwarvenArmorFVanillaSSEHi" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFVanillaSSEHi</Data>
+            <Data name="robeskinVanillaSSEHi" target="robeskin" local="true">IAR.osd\robeskinVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="robesVanillaSSELo" target="robes" local="true">IAR.osd\robesVanillaSSELo</Data>
+            <Data name="DwarvenArmorFVanillaSSELo" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFVanillaSSELo</Data>
+            <Data name="robeskinVanillaSSELo" target="robeskin" local="true">IAR.osd\robeskinVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="robesOldBaseShape" target="robes" local="true">IAR.osd\robesOldBaseShape</Data>
+            <Data name="DwarvenArmorFOldBaseShape" target="DwarvenArmorF" local="true">IAR.osd\DwarvenArmorFOldBaseShape</Data>
+            <Data name="robeskinOldBaseShape" target="robeskin" local="true">IAR.osd\robeskinOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="IAR Barbarian Gauntlets 2">
+        <DataFolder>IAR</DataFolder>
+        <SourceFile>Barbarian Gauntlets2.nif</SourceFile>
+        <OutputPath>meshes\armor\barbarian2\f</OutputPath>
+        <OutputFile GenWeights="true">gauntlets</OutputFile>
+        <Shape target="Gauntlets_1">Gauntlets_1</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1Arms" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1Arms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1BigTorso" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1BigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1ChubbyArms" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1ForearmSize" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1ForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1MuscleArms" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1MuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1ShoulderWidth" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="Gauntlets_1WristSize" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1WristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="Gauntlets_17B Upper" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_17B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1VanillaSSEHi" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="Gauntlets_1VanillaSSELo" target="Gauntlets_1" local="true">Barbarian Gauntlets2.osd\Gauntlets_1VanillaSSELo</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="IAR Barbarian Feet 2">
+        <DataFolder>IAR</DataFolder>
+        <SourceFile>Barbarian Feet2.nif</SourceFile>
+        <OutputPath>meshes\armor\barbarian2\f</OutputPath>
+        <OutputFile GenWeights="true">boots</OutputFile>
+        <Shape target="Boots_1">Boots_1</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="Boots_1AnkleSize" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1AnkleSize</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="Boots_1CalfSize" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="Boots_1CalfSmooth" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1CalfSmooth</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Boots_1ChubbyLegs" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Boots_1KneeHeight" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1KneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="Boots_1KneeShape" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1KneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="Boots_1LegShapeClassic" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1LegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="Boots_1LegsThin" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1LegsThin</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="Boots_1MuscleLegs" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1MuscleLegs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Boots_1Thighs" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1Thighs</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="Boots_17B Lower" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_17B Lower</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="Boots_1VanillaSSEHi" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="Boots_1VanillaSSELo" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1VanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="Boots_1OldBaseShape" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1OldBaseShape</Data>
+        </Slider>
+        <Slider name="FeetFeminine" invert="false" small="0" big="0">
+            <Data name="Boots_1FeetFeminine" target="Boots_1" local="true">Barbarian Feet2.osd\Boots_1FeetFeminine</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="IAR Dreugh Feet">
+        <DataFolder>IAR</DataFolder>
+        <SourceFile>Dreugh Boots.nif</SourceFile>
+        <OutputPath>meshes\armor\dreugh</OutputPath>
+        <OutputFile GenWeights="true">bootsf</OutputFile>
+        <Shape target="DragonscaleBootsF:0">DragonscaleBootsF:0</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="DragonscaleBootsF:0AnkleSize" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0AnkleSize</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0CalfSize" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0CalfSmooth" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0CalfSmooth</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0ChubbyLegs" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0ChubbyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0KneeHeight" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0KneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0KneeShape" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0KneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0LegShapeClassic" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0LegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0LegsThin" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0LegsThin</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0MuscleLegs" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0MuscleLegs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0Thighs" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0Thighs</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:07B Lower" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:07B Lower</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0VanillaSSEHi" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0VanillaSSELo" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0VanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0OldBaseShape" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0OldBaseShape</Data>
+        </Slider>
+        <Slider name="FeetFeminine" invert="false" small="0" big="0">
+            <Data name="DragonscaleBootsF:0FeetFeminine" target="DragonscaleBootsF:0" local="true">Dreugh Boots.osd\DragonscaleBootsF:0FeetFeminine</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="IAR Dreugh">
+        <DataFolder>IAR</DataFolder>
+        <SourceFile>dreugh.nif</SourceFile>
+        <OutputPath>meshes\armor\dreugh</OutputPath>
+        <OutputFile GenWeights="true">cuirassf</OutputFile>
+        <Shape target="Dragonbone">Dragonbone</Shape>
+        <Shape target="NPC R UpperArm [RUar]_1">NPC R UpperArm [RUar]_1</Shape>
+        <Shape target="legging">legging</Shape>
+        <Slider name="Vanilla To CBBE" invert="false" small="0" big="0">
+            <Data name="DragonboneVanilla To CBBE" target="Dragonbone" local="true">dreugh.osd\DragonboneVanilla To CBBE</Data>
+            <Data name="NPC R UpperArm [RUar]_1Vanilla To CBBE" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Vanilla To CBBE</Data>
+            <Data name="leggingVanilla To CBBE" target="legging" local="true">dreugh.osd\leggingVanilla To CBBE</Data>
+        </Slider>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="leggingAnkleSize" target="legging" local="true">dreugh.osd\leggingAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="DragonboneAppleCheeks" target="Dragonbone" local="true">dreugh.osd\DragonboneAppleCheeks</Data>
+            <Data name="NPC R UpperArm [RUar]_1AppleCheeks" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1AppleCheeks</Data>
+            <Data name="leggingAppleCheeks" target="legging" local="true">dreugh.osd\leggingAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="DragonboneArms" target="Dragonbone" local="true">dreugh.osd\DragonboneArms</Data>
+            <Data name="NPC R UpperArm [RUar]_1Arms" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Arms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="DragonboneBack" target="Dragonbone" local="true">dreugh.osd\DragonboneBack</Data>
+            <Data name="NPC R UpperArm [RUar]_1Back" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Back</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="DragonboneBackArch" target="Dragonbone" local="true">dreugh.osd\DragonboneBackArch</Data>
+            <Data name="NPC R UpperArm [RUar]_1BackArch" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="DragonboneBelly" target="Dragonbone" local="true">dreugh.osd\DragonboneBelly</Data>
+            <Data name="NPC R UpperArm [RUar]_1Belly" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="DragonboneBigBelly" target="Dragonbone" local="true">dreugh.osd\DragonboneBigBelly</Data>
+            <Data name="NPC R UpperArm [RUar]_1BigBelly" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BigBelly</Data>
+            <Data name="leggingBigBelly" target="legging" local="true">dreugh.osd\leggingBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="DragonboneBigButt" target="Dragonbone" local="true">dreugh.osd\DragonboneBigButt</Data>
+            <Data name="NPC R UpperArm [RUar]_1BigButt" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BigButt</Data>
+            <Data name="leggingBigButt" target="legging" local="true">dreugh.osd\leggingBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="DragonboneBigTorso" target="Dragonbone" local="true">dreugh.osd\DragonboneBigTorso</Data>
+            <Data name="NPC R UpperArm [RUar]_1BigTorso" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BigTorso</Data>
+            <Data name="leggingBigTorso" target="legging" local="true">dreugh.osd\leggingBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastCenter" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastCenter</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastCenter" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastCenterBig" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastCenterBig</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastCenterBig" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastCleavage" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastCleavage</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastCleavage" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastFlatness2" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastFlatness2</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastFlatness2" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastFlatness" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastFlatness</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastFlatness" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastGravity2" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastGravity2</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastGravity2" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastHeight" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastHeight</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastHeight" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastPerkiness" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastPerkiness</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastPerkiness" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="DragonboneBreasts" target="Dragonbone" local="true">dreugh.osd\DragonboneBreasts</Data>
+            <Data name="NPC R UpperArm [RUar]_1Breasts" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastsFantasy" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastsFantasy</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastsFantasy" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastsGone" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastsGone</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastsGone" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastsNewSH" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastsNewSH</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastsNewSH" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastsNewSHSymmetry" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastsNewSHSymmetry</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastsNewSHSymmetry" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastsSmall" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastsSmall</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastsSmall" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastsSmall2" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastsSmall2</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastsSmall2" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastsTogether" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastsTogether</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastsTogether" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastTopSlope" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastTopSlope</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastTopSlope" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastWidth" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastWidth</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastWidth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastWidth</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastSideShape" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastSideShape</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastSideShape" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="DragonboneBreastUnderDepth" target="Dragonbone" local="true">dreugh.osd\DragonboneBreastUnderDepth</Data>
+            <Data name="NPC R UpperArm [RUar]_1BreastUnderDepth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1BreastUnderDepth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="DragonboneButt" target="Dragonbone" local="true">dreugh.osd\DragonboneButt</Data>
+            <Data name="NPC R UpperArm [RUar]_1Butt" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Butt</Data>
+            <Data name="leggingButt" target="legging" local="true">dreugh.osd\leggingButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="DragonboneButtClassic" target="Dragonbone" local="true">dreugh.osd\DragonboneButtClassic</Data>
+            <Data name="NPC R UpperArm [RUar]_1ButtClassic" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ButtClassic</Data>
+            <Data name="leggingButtClassic" target="legging" local="true">dreugh.osd\leggingButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="DragonboneButtCrack" target="Dragonbone" local="true">dreugh.osd\DragonboneButtCrack</Data>
+            <Data name="leggingButtCrack" target="legging" local="true">dreugh.osd\leggingButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="DragonboneButtShape2" target="Dragonbone" local="true">dreugh.osd\DragonboneButtShape2</Data>
+            <Data name="NPC R UpperArm [RUar]_1ButtShape2" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ButtShape2</Data>
+            <Data name="leggingButtShape2" target="legging" local="true">dreugh.osd\leggingButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="DragonboneButtSmall" target="Dragonbone" local="true">dreugh.osd\DragonboneButtSmall</Data>
+            <Data name="NPC R UpperArm [RUar]_1ButtSmall" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ButtSmall</Data>
+            <Data name="leggingButtSmall" target="legging" local="true">dreugh.osd\leggingButtSmall</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="DragonboneButtDimples" target="Dragonbone" local="true">dreugh.osd\DragonboneButtDimples</Data>
+            <Data name="NPC R UpperArm [RUar]_1ButtDimples" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ButtDimples</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="DragonboneButtUnderFold" target="Dragonbone" local="true">dreugh.osd\DragonboneButtUnderFold</Data>
+            <Data name="leggingButtUnderFold" target="legging" local="true">dreugh.osd\leggingButtUnderFold</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="leggingCalfSize" target="legging" local="true">dreugh.osd\leggingCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="leggingCalfSmooth" target="legging" local="true">dreugh.osd\leggingCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="DragonboneChestDepth" target="Dragonbone" local="true">dreugh.osd\DragonboneChestDepth</Data>
+            <Data name="NPC R UpperArm [RUar]_1ChestDepth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="DragonboneChestWidth" target="Dragonbone" local="true">dreugh.osd\DragonboneChestWidth</Data>
+            <Data name="NPC R UpperArm [RUar]_1ChestWidth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="DragonboneChubbyArms" target="Dragonbone" local="true">dreugh.osd\DragonboneChubbyArms</Data>
+            <Data name="NPC R UpperArm [RUar]_1ChubbyArms" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="DragonboneChubbyButt" target="Dragonbone" local="true">dreugh.osd\DragonboneChubbyButt</Data>
+            <Data name="NPC R UpperArm [RUar]_1ChubbyButt" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ChubbyButt</Data>
+            <Data name="leggingChubbyButt" target="legging" local="true">dreugh.osd\leggingChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DragonboneChubbyLegs" target="Dragonbone" local="true">dreugh.osd\DragonboneChubbyLegs</Data>
+            <Data name="NPC R UpperArm [RUar]_1ChubbyLegs" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ChubbyLegs</Data>
+            <Data name="leggingChubbyLegs" target="legging" local="true">dreugh.osd\leggingChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="DragonboneChubbyWaist" target="Dragonbone" local="true">dreugh.osd\DragonboneChubbyWaist</Data>
+            <Data name="NPC R UpperArm [RUar]_1ChubbyWaist" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ChubbyWaist</Data>
+            <Data name="leggingChubbyWaist" target="legging" local="true">dreugh.osd\leggingChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="DragonboneCrotchBack" target="Dragonbone" local="true">dreugh.osd\DragonboneCrotchBack</Data>
+            <Data name="NPC R UpperArm [RUar]_1CrotchBack" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1CrotchBack</Data>
+            <Data name="leggingCrotchBack" target="legging" local="true">dreugh.osd\leggingCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DragonboneDoubleMelon" target="Dragonbone" local="true">dreugh.osd\DragonboneDoubleMelon</Data>
+            <Data name="NPC R UpperArm [RUar]_1DoubleMelon" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="NPC R UpperArm [RUar]_1ForearmSize" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="DragonboneGroin" target="Dragonbone" local="true">dreugh.osd\DragonboneGroin</Data>
+            <Data name="NPC R UpperArm [RUar]_1Groin" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Groin</Data>
+            <Data name="leggingGroin" target="legging" local="true">dreugh.osd\leggingGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="DragonboneHipBone" target="Dragonbone" local="true">dreugh.osd\DragonboneHipBone</Data>
+            <Data name="NPC R UpperArm [RUar]_1HipBone" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1HipBone</Data>
+            <Data name="leggingHipBone" target="legging" local="true">dreugh.osd\leggingHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="DragonboneHipForward" target="Dragonbone" local="true">dreugh.osd\DragonboneHipForward</Data>
+            <Data name="NPC R UpperArm [RUar]_1HipForward" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1HipForward</Data>
+            <Data name="leggingHipForward" target="legging" local="true">dreugh.osd\leggingHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="DragonboneHips" target="Dragonbone" local="true">dreugh.osd\DragonboneHips</Data>
+            <Data name="NPC R UpperArm [RUar]_1Hips" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Hips</Data>
+            <Data name="leggingHips" target="legging" local="true">dreugh.osd\leggingHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="DragonboneHipUpperWidth" target="Dragonbone" local="true">dreugh.osd\DragonboneHipUpperWidth</Data>
+            <Data name="NPC R UpperArm [RUar]_1HipUpperWidth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1HipUpperWidth</Data>
+            <Data name="leggingHipUpperWidth" target="legging" local="true">dreugh.osd\leggingHipUpperWidth</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="DragonboneHipCarved" target="Dragonbone" local="true">dreugh.osd\DragonboneHipCarved</Data>
+            <Data name="NPC R UpperArm [RUar]_1HipCarved" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1HipCarved</Data>
+            <Data name="leggingHipCarved" target="legging" local="true">dreugh.osd\leggingHipCarved</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DragonboneKneeHeight" target="Dragonbone" local="true">dreugh.osd\DragonboneKneeHeight</Data>
+            <Data name="leggingKneeHeight" target="legging" local="true">dreugh.osd\leggingKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="DragonboneKneeShape" target="Dragonbone" local="true">dreugh.osd\DragonboneKneeShape</Data>
+            <Data name="leggingKneeShape" target="legging" local="true">dreugh.osd\leggingKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="DragonboneLegShapeClassic" target="Dragonbone" local="true">dreugh.osd\DragonboneLegShapeClassic</Data>
+            <Data name="leggingLegShapeClassic" target="legging" local="true">dreugh.osd\leggingLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="DragonboneLegsThin" target="Dragonbone" local="true">dreugh.osd\DragonboneLegsThin</Data>
+            <Data name="leggingLegsThin" target="legging" local="true">dreugh.osd\leggingLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="DragonboneMuscleAbs" target="Dragonbone" local="true">dreugh.osd\DragonboneMuscleAbs</Data>
+            <Data name="NPC R UpperArm [RUar]_1MuscleAbs" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1MuscleAbs</Data>
+            <Data name="leggingMuscleAbs" target="legging" local="true">dreugh.osd\leggingMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="DragonboneMuscleArms" target="Dragonbone" local="true">dreugh.osd\DragonboneMuscleArms</Data>
+            <Data name="NPC R UpperArm [RUar]_1MuscleArms" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1MuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="DragonboneMuscleButt" target="Dragonbone" local="true">dreugh.osd\DragonboneMuscleButt</Data>
+            <Data name="NPC R UpperArm [RUar]_1MuscleButt" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1MuscleButt</Data>
+            <Data name="leggingMuscleButt" target="legging" local="true">dreugh.osd\leggingMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="DragonboneMuscleLegs" target="Dragonbone" local="true">dreugh.osd\DragonboneMuscleLegs</Data>
+            <Data name="leggingMuscleLegs" target="legging" local="true">dreugh.osd\leggingMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="DragonboneMusclePecs" target="Dragonbone" local="true">dreugh.osd\DragonboneMusclePecs</Data>
+            <Data name="NPC R UpperArm [RUar]_1MusclePecs" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1MusclePecs</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="DragonboneNavelEven" target="Dragonbone" local="true">dreugh.osd\DragonboneNavelEven</Data>
+            <Data name="NPC R UpperArm [RUar]_1NavelEven" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NavelEven</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DragonboneNeckSeam" target="Dragonbone" local="true">dreugh.osd\DragonboneNeckSeam</Data>
+            <Data name="NPC R UpperArm [RUar]_1NeckSeam" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="DragonboneNipBGone" target="Dragonbone" local="true">dreugh.osd\DragonboneNipBGone</Data>
+            <Data name="NPC R UpperArm [RUar]_1NipBGone" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="DragonboneNippleDistance" target="Dragonbone" local="true">dreugh.osd\DragonboneNippleDistance</Data>
+            <Data name="NPC R UpperArm [RUar]_1NippleDistance" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="DragonboneNippleDown" target="Dragonbone" local="true">dreugh.osd\DragonboneNippleDown</Data>
+            <Data name="NPC R UpperArm [RUar]_1NippleDown" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="NPC R UpperArm [RUar]_1NippleLength" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="DragonboneNippleManga" target="Dragonbone" local="true">dreugh.osd\DragonboneNippleManga</Data>
+            <Data name="NPC R UpperArm [RUar]_1NippleManga" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="DragonboneNipplePerkiness" target="Dragonbone" local="true">dreugh.osd\DragonboneNipplePerkiness</Data>
+            <Data name="NPC R UpperArm [RUar]_1NipplePerkiness" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="DragonboneNipplePerkManga" target="Dragonbone" local="true">dreugh.osd\DragonboneNipplePerkManga</Data>
+            <Data name="NPC R UpperArm [RUar]_1NipplePerkManga" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="DragonboneNippleSize" target="Dragonbone" local="true">dreugh.osd\DragonboneNippleSize</Data>
+            <Data name="NPC R UpperArm [RUar]_1NippleSize" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="DragonboneNippleTip" target="Dragonbone" local="true">dreugh.osd\DragonboneNippleTip</Data>
+            <Data name="NPC R UpperArm [RUar]_1NippleTip" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="NPC R UpperArm [RUar]_1NippleTipManga" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="DragonboneNippleUp" target="Dragonbone" local="true">dreugh.osd\DragonboneNippleUp</Data>
+            <Data name="NPC R UpperArm [RUar]_1NippleUp" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1NippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="DragonbonePregnancyBelly" target="Dragonbone" local="true">dreugh.osd\DragonbonePregnancyBelly</Data>
+            <Data name="NPC R UpperArm [RUar]_1PregnancyBelly" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1PregnancyBelly</Data>
+            <Data name="leggingPregnancyBelly" target="legging" local="true">dreugh.osd\leggingPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="DragonbonePushUp" target="Dragonbone" local="true">dreugh.osd\DragonbonePushUp</Data>
+            <Data name="NPC R UpperArm [RUar]_1PushUp" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1PushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="DragonboneRibsProminance" target="Dragonbone" local="true">dreugh.osd\DragonboneRibsProminance</Data>
+            <Data name="NPC R UpperArm [RUar]_1RibsProminance" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1RibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="DragonboneRoundAss" target="Dragonbone" local="true">dreugh.osd\DragonboneRoundAss</Data>
+            <Data name="NPC R UpperArm [RUar]_1RoundAss" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1RoundAss</Data>
+            <Data name="leggingRoundAss" target="legging" local="true">dreugh.osd\leggingRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="DragonboneShoulderSmooth" target="Dragonbone" local="true">dreugh.osd\DragonboneShoulderSmooth</Data>
+            <Data name="NPC R UpperArm [RUar]_1ShoulderSmooth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="DragonboneShoulderTweak" target="Dragonbone" local="true">dreugh.osd\DragonboneShoulderTweak</Data>
+            <Data name="NPC R UpperArm [RUar]_1ShoulderTweak" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="DragonboneShoulderWidth" target="Dragonbone" local="true">dreugh.osd\DragonboneShoulderWidth</Data>
+            <Data name="NPC R UpperArm [RUar]_1ShoulderWidth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DragonboneSlimThighs" target="Dragonbone" local="true">dreugh.osd\DragonboneSlimThighs</Data>
+            <Data name="NPC R UpperArm [RUar]_1SlimThighs" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1SlimThighs</Data>
+            <Data name="leggingSlimThighs" target="legging" local="true">dreugh.osd\leggingSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="DragonboneSternumDepth" target="Dragonbone" local="true">dreugh.osd\DragonboneSternumDepth</Data>
+            <Data name="NPC R UpperArm [RUar]_1SternumDepth" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1SternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="DragonboneSternumHeight" target="Dragonbone" local="true">dreugh.osd\DragonboneSternumHeight</Data>
+            <Data name="NPC R UpperArm [RUar]_1SternumHeight" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1SternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DragonboneThighs" target="Dragonbone" local="true">dreugh.osd\DragonboneThighs</Data>
+            <Data name="NPC R UpperArm [RUar]_1Thighs" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Thighs</Data>
+            <Data name="leggingThighs" target="legging" local="true">dreugh.osd\leggingThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="DragonboneTummyTuck" target="Dragonbone" local="true">dreugh.osd\DragonboneTummyTuck</Data>
+            <Data name="NPC R UpperArm [RUar]_1TummyTuck" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1TummyTuck</Data>
+            <Data name="leggingTummyTuck" target="legging" local="true">dreugh.osd\leggingTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="DragonboneWaist" target="Dragonbone" local="true">dreugh.osd\DragonboneWaist</Data>
+            <Data name="NPC R UpperArm [RUar]_1Waist" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1Waist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="DragonboneWaistHeight" target="Dragonbone" local="true">dreugh.osd\DragonboneWaistHeight</Data>
+            <Data name="NPC R UpperArm [RUar]_1WaistHeight" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1WaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="DragonboneWideWaistLine" target="Dragonbone" local="true">dreugh.osd\DragonboneWideWaistLine</Data>
+            <Data name="NPC R UpperArm [RUar]_1WideWaistLine" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1WideWaistLine</Data>
+            <Data name="leggingWideWaistLine" target="legging" local="true">dreugh.osd\leggingWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="NPC R UpperArm [RUar]_1WristSize" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1WristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="Dragonbone7B Lower" target="Dragonbone" local="true">dreugh.osd\Dragonbone7B Lower</Data>
+            <Data name="NPC R UpperArm [RUar]_17B Lower" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_17B Lower</Data>
+            <Data name="legging7B Lower" target="legging" local="true">dreugh.osd\legging7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="Dragonbone7B Upper" target="Dragonbone" local="true">dreugh.osd\Dragonbone7B Upper</Data>
+            <Data name="NPC R UpperArm [RUar]_17B Upper" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_17B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="DragonboneVanillaSSEHi" target="Dragonbone" local="true">dreugh.osd\DragonboneVanillaSSEHi</Data>
+            <Data name="NPC R UpperArm [RUar]_1VanillaSSEHi" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1VanillaSSEHi</Data>
+            <Data name="leggingVanillaSSEHi" target="legging" local="true">dreugh.osd\leggingVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="DragonboneVanillaSSELo" target="Dragonbone" local="true">dreugh.osd\DragonboneVanillaSSELo</Data>
+            <Data name="NPC R UpperArm [RUar]_1VanillaSSELo" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1VanillaSSELo</Data>
+            <Data name="leggingVanillaSSELo" target="legging" local="true">dreugh.osd\leggingVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="DragonboneOldBaseShape" target="Dragonbone" local="true">dreugh.osd\DragonboneOldBaseShape</Data>
+            <Data name="NPC R UpperArm [RUar]_1OldBaseShape" target="NPC R UpperArm [RUar]_1" local="true">dreugh.osd\NPC R UpperArm [RUar]_1OldBaseShape</Data>
+            <Data name="leggingOldBaseShape" target="legging" local="true">dreugh.osd\leggingOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
 </SliderSetInfo>
